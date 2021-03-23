@@ -1,0 +1,36 @@
+{
+  "name": "ch-jekyll-theme",
+  "version": "0.1.0",
+  "description": "Jekyll theme for communicatehealth.github.io",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run lint",
+    "pretty-quick": "pretty-quick",
+    "stylelint": "npm run browser-list && stylelint  \"_sass/**/*.scss\" --fix",
+    "lint": "npm run pretty-quick && npm run stylelint",
+    "browser-list": "echo Browser support list: && npx browserslist",
+    "browser-update": "npx browserslist@latest --update-db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/communicatehealth/ch-jekyll-theme.git"
+  },
+  "author": "CommunicateHealth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/communicatehealth/ch-jekyll-theme/issues"
+  },
+  "homepage": "https://github.com/communicatehealth/ch-jekyll-theme#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "stylelint": "^13.12.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-no-unsupported-browser-features": "^4.1.4",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}

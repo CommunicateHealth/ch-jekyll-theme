@@ -1,0 +1,25 @@
+title: CH Jekyll Theme
+description: "Jekyll theme for communicatehealth.github.io."
+url: "https://communicatehealth.github.io"
+baseurl: /ch-jekyll-theme
+
+author:
+  name: "@communicatehealth"
+
+github: communicatehealth/ch-jekyll-theme
+
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github

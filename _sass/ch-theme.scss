@@ -1,0 +1,23 @@
+@import "variables";
+@import "helpers";
+@import "base";
+
+.skip {
+  @extend %u-visually-hidden;
+}
+
+.wrapper {
+  @extend %u-wrap;
+}
+
+.page-404 {
+  text-align: center;
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+.site-header svg {
+  max-width: 20rem;
+  margin-top: 1rem;
+}
